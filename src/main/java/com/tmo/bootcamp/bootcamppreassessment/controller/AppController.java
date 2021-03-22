@@ -12,7 +12,7 @@ import com.tmo.bootcamp.model.AddTenResponse;
 public class AppController {
 		
 	
-	@GetMapping(value = "/hello")
+	@GetMapping(value = "/")
 	public String hello() {
 		return "Hello Pre-Assessment";
 	}
